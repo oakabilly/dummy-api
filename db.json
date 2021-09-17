@@ -7,7 +7,7 @@
       "number_of_meals":4,
       "image":{
          "path":"https://...",
-         "base64":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/..."
+         "base64":"data:image/jpeg;base64..."
       },
       "meals":[
          {
@@ -16,12 +16,6 @@
                {
                   "code":10115,
                   "title":"bevanda calda cappuccino",
-                  "quantity":7,
-                  "price":"23,00"
-               },
-               {
-                  "code":10116,
-                  "title":"bevanda calda cacao",
                   "quantity":7,
                   "price":"23,00"
                }
@@ -33,28 +27,6 @@
                {
                   "code":10105,
                   "title":"Omelette alle erbette",
-                  "quantity":7,
-                  "price":"23,00"
-               }
-            ]
-         },
-         {
-            "title":"merenda",
-            "products":[
-               {
-                  "code":183,
-                  "title":"smoothie banana",
-                  "quantity":7,
-                  "price":"28,00"
-               }
-            ]
-         },
-         {
-            "title":"cena",
-            "products":[
-               {
-                  "code":50400,
-                  "title":"Zuppa di verdure SG",
                   "quantity":7,
                   "price":"23,00"
                }
