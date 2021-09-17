@@ -1,37 +1,28 @@
 {
-   "id":1,
-   "code":"AK123456",
-   "package":{
-      "id":2,
-      "name":"Nome del pacchetto",
-      "number_of_meals":4,
-      "image":{
-         "path":"https://...",
-         "base64":"data:image/jpeg;base64..."
-      },
-      "meals":[
-         {
-            "title":"colazione",
-            "products":[
-               {
-                  "code":10115,
-                  "title":"bevanda calda cappuccino",
-                  "quantity":7,
-                  "price":"23,00"
-               }
-            ]
-         },
-         {
-            "title":"pranzo",
-            "products":[
-               {
-                  "code":10105,
-                  "title":"Omelette alle erbette",
-                  "quantity":7,
-                  "price":"23,00"
-               }
-            ]
-         }
-      ]
-   }
+	"code": "AK[A-Z0-9]{6}",
+	"pk_name": "Nome del pacchetto",
+	"pk_number_of_meals": 4,
+	"pk_image": {
+		"path": "https://...",
+		"base64": "data:image/jpeg;base64..."
+	},
+	"pk_meals": [{
+			"title": "colazione",
+			"products": [{
+				"code": 10115,
+				"title": "bevanda calda cappuccino",
+				"quantity": 7,
+				"price": "23,00"
+			}]
+		},
+		{
+			"title": "pranzo",
+			"products": [{
+				"code": 10105,
+				"title": "Omelette alle erbette",
+				"quantity": 7,
+				"price": "23,00"
+			}]
+		}
+	]
 }
